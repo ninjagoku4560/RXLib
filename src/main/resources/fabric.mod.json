@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "rxlib",
+  "version": "${version}",
+  "name": "RXLib",
+  "description": "Fabric Lib",
+  "authors": [
+    "ninjagoku4560"
+  ],
+  "contact": {
+    "repo": "https://github.com/ninjagoku4560/RXLib"
+  },
+  "license": "MIT",
+  "icon": "assets/rxlib/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "fr.ninjagoku4560.rxlib.client.RXLibClient"
+    ],
+    "main": [
+      "fr.ninjagoku4560.rxlib.RXLib"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
